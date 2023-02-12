@@ -1,0 +1,62 @@
+
+@import url('https://fonts.cdnfonts.com/css/cursed-timer-ulil');
+@font-face {font-family:"Cursed Timer ULiL";src:url("CursedTimerULiL.eot?") format("eot"),url("CursedTimerULiL.woff") format("woff"),url("CursedTimerULiL.ttf") format("truetype"),url("CursedTimerULiL.svg#CursedTimerULiL") format("svg");font-weight:normal;font-style:normal;}
+                
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.basketball {
+    width: 575px;
+    height: 385px;
+    background: #1B244A;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    }
+    h1 {
+        font-family: 'Verdana';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 36px;
+    /* identical to box height, or 90% */
+        text-align: center;
+        color: #EEEEEE;
+    }
+    .home, .guest {
+        display: grid;
+        place-items: center;
+    }
+    .score, .myScore {
+        font-family: 'Cursed Timer ULiL';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 90px;
+        line-height: 127px;
+    /* or 141% */
+        text-align: center;
+        color: #F94F6D;
+        width: 155px;
+        height: 120px;
+        background: #000;
+    }
+    button {
+        font-family: 'Cursed Timer ULiL';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+    /* or 155% */
+        text-align: center;
+        color: #9AABD8;
+        border: 2px solid #9AABD8;
+        border-radius: 5px;
+        padding: 10px 15px;
+        background: transparent;
+        margin: 3px;
+        cursor: pointer;
+    }
